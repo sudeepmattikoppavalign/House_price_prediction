@@ -212,6 +212,10 @@ Key Findings:
 - Try advanced regression models
 - Add model monitoring
 
+## Model Comparison
+
+Linear Regression and Ridge Regression were compared using MAE, RMSE, and R² metrics.
+
 ## Author
 
 Sudeep Mattikoppa
