@@ -216,6 +216,10 @@ Key Findings:
 
 Linear Regression and Ridge Regression were compared using MAE, RMSE, and R² metrics.
 
+## Dataset Information
+
+The project uses the California Housing dataset available in scikit-learn.
+
 ## Author
 
 Sudeep Mattikoppa
