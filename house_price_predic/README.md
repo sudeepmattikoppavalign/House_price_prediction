@@ -200,3 +200,12 @@ Key Findings:
 * Model Deployment
 
 
+## Future Improvements
+
+- Streamlit Web App
+- Hyperparameter Tuning
+- Additional Regression Models
+
+## Author
+
+Sudeep Mattikoppa
