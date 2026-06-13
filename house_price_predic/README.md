@@ -220,6 +220,14 @@ Linear Regression and Ridge Regression were compared using MAE, RMSE, and R² me
 
 The project uses the California Housing dataset available in scikit-learn.
 
+## Learning Outcomes
+
+- Data preprocessing
+- Feature scaling
+- Regression modeling
+- Model evaluation
+- GitHub workflow
+
 ## Author
 
 Sudeep Mattikoppa
