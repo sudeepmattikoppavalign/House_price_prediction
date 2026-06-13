@@ -206,6 +206,12 @@ Key Findings:
 - Hyperparameter Tuning
 - Additional Regression Models
 
+## Future Scope
+
+- Deploy using Streamlit
+- Try advanced regression models
+- Add model monitoring
+
 ## Author
 
 Sudeep Mattikoppa
