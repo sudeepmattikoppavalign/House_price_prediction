@@ -226,12 +226,11 @@ The project uses the California Housing dataset available in scikit-learn.
 - Feature scaling
 - Regression modeling
 - Model evaluation
-- GitHub workflow
+- GitHub workflow.
 
 ## Acknowledgements
 
 Thanks to scikit-learn for providing the California Housing dataset.
 
 ## Author
-
 Sudeep Mattikoppa
