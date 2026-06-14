@@ -58,6 +58,42 @@ print("MAE :", round(mae, 4))
 print("RMSE:", round(rmse, 4))
 print("R²  :", round(r2, 4))
 
+# Evaluation
+print(r2_score(y_test, y_pred))
+print(mean_squared_error(y_test, y_pred))
+
+# ==================================
+# Feature Importance Analysis
+# ==================================
+
+import pandas as pd
+
+importance_df = pd.DataFrame({
+    'Feature': X_train.columns,
+    'Coefficient': model.coef_
+})
+
+importance_df = importance_df.sort_values(
+    by='Coefficient',
+    ascending=False
+)
+
+print(importance_df)
+
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(10,6))
+plt.barh(
+    importance_df['Feature'],
+    importance_df['Coefficient']
+)
+
+plt.xlabel("Coefficient Value")
+plt.ylabel("Features")
+plt.title("Feature Importance (Linear Regression)")
+plt.gca().invert_yaxis()
+plt.show()
+
 # Save model
 os.makedirs("models", exist_ok=True)
 
