@@ -191,26 +191,6 @@ Key Findings:
 
 ---
 
-## Future Improvements
-
-* Streamlit Web Application
-* Hyperparameter Tuning
-* Random Forest Regression
-* Feature Engineering
-* Model Deployment
-
-
-## Future Improvements
-
-- Streamlit Web App
-- Hyperparameter Tuning
-- Additional Regression Models
-
-## Future Scope
-
-- Deploy using Streamlit
-- Try advanced regression models
-- Add model monitoring
 
 ## Author
 
